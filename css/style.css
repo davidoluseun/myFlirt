@@ -1,0 +1,63 @@
+/* Custom Properties 
+------------------------------- */
+
+:root {
+    --color-bg-main: #23233C;
+    --color-text-main: #FFF;
+    --color-text-secondary: rgba(255, 255, 255, 0.85);
+    --color-brand: #F74884;
+
+
+    --bg-primary-color:  #E5E5E5;
+    --site-primary-color: #162447;
+    --text-primary-color: #1B1B2F;
+    --text-secondary-color: #F4F4F4;
+    --btn-primary-color: #E43F5A;
+    --text-primary-font: 'Poppins', sans-serif;
+}
+
+/* Bootstrap Overrides
+-------------------------------*/
+
+
+/* Global Styles
+-------------------------------*/
+
+body {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 41px;
+    background-color: var(--color-bg-main);
+    color: var(--color-text-main);
+}
+
+.brand-color {
+    color: var(--color-brand);
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+}
+
+p {
+    opacity: .85;
+}
+
+.coming-soon {
+    font-size: 40px;
+    line-height: 47px;
+    opacity: 1;
+}
+
+.main-title {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
