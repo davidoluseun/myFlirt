@@ -13,6 +13,6 @@
     $sql = "INSERT INTO users (user_first, user_email) VALUES('$firstname', '$email');";
     mysqli_query($conn, $sql);
 
-    header("Location: ../index.html?=success");
+    header("Location: ../index.php?signup=success");
 
 ?>
