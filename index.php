@@ -9,7 +9,9 @@
         <!-- Google Font CSS -->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha512-rO2SXEKBSICa/AfyhEK5ZqWFCOok1rcgPYfGOqtX35OyiraBg6Xa4NnBJwXgpIRoXeWjcAmcQniMhp22htDc6g==" crossorigin="anonymous" />       
+
         <!-- Animate CSS -->
         <link rel="stylesheet" href="vendor/animate/animate.css">
         <!-- Custom styles for the template -->
