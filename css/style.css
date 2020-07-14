@@ -32,10 +32,6 @@ body {
     color: var(--color-text-main);
 }
 
-.brand-color {
-    color: var(--color-brand);
-}
-
 h2 {
     font-weight: 600;
     font-size: 48px;
@@ -45,6 +41,14 @@ h2 {
 
 p {
     opacity: .85;
+}
+
+em {
+    font-style: normal;
+}
+
+.brand-color {
+    color: var(--color-brand);
 }
 
 .coming-soon {
@@ -60,4 +64,11 @@ p {
 }
 
 
+#screen h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    color: var(--color-brand);
+}
 

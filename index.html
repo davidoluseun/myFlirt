@@ -26,12 +26,12 @@
 
         <main>
             <header  class="main-title">
-                <h2>Find the perfect match to <span class="brand-color">flirt</span> with amongst your social media <br>friends</h2>
+                <h2>Find the perfect match to <em class="brand-color">flirt</em> with amongst your social media <br>friends</h2>
                 <p>We are currently working on this feature and will lauch soon</p>
             </header>
 
-            <section>
-                <h2><span class="brand-color">About</span> the App</h2>
+            <section id="about">
+                <h2><em class="brand-color">About</em> the App</h2>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
@@ -45,8 +45,8 @@
                 </div>
             </section>
 
-            <section>
-                <h2>App <span class="brand-color">Features</span></h2>
+            <section id="feature">
+                <h2>App <em class="brand-color">Features</em></h2>
                 
                 <div class="container">
                     <div class="row">
@@ -66,8 +66,8 @@
                
             </section>
 
-            <section>
-                <h2>App <span class="brand-color">Screens</span></h2>
+            <section id="screen">
+                <h2>App <em class="brand-color">Screens</em></h2>
 
                 <div class="container">
                     <div class="row">
@@ -103,19 +103,26 @@
                     </div>
                 </div>
 
-               
             </section>
 
 
-            <section>
-                <h2>Be the <span class="brand-color">first</span> to know when we <span class="brand-color">launch</span></h2>
+            <section id="be-notify">
+                <h2>Be the <em class="brand-color">first</em> to know when we <em class="brand-color">launch</em></h2>
                 
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <form action="">
-                                <input type="text" name="firstname" placeholder="Your First Name">
-                                <input type="text" name="firstname" placeholder="Your Email Address">
+                            <form action="mail/notify.php" method="post">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="firstname"></label>
+                                    <input class="form-control" id="firstname" type="text" name="firstname" placeholder="Your First Name">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-control-label" for="user-email"></label>
+                                    <input class="form-control" id="user-email" type="email" name="user-email" placeholder="Your Email Address">
+                                </div>
+
                                 <input type="submit" value="NOTIFY ME">
                             </form>
                         </div>
@@ -125,8 +132,6 @@
                     </div>
                 </div>
             </section>
-
-
         </main>
      
         <!-- jQuery JS -->
