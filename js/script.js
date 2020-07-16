@@ -5,6 +5,9 @@
     // jQuery document ready fn
     $(function() {
 
+        // Wow.js activation
+        new WOW().init();
+
   
     }); // jQuery document ready function
 

@@ -2,23 +2,49 @@
 ------------------------------- */
 
 :root {
-    --color-bg-main: #23233C;
-    --color-text-main: #FFF;
-    --color-text-secondary: rgba(255, 255, 255, 0.85);
+    --color-white: #F1F1F1;
+    --color-main: #23233C;
     --color-brand: #F74884;
-
-
-    --bg-primary-color:  #E5E5E5;
-    --site-primary-color: #162447;
-    --text-primary-color: #1B1B2F;
-    --text-secondary-color: #F4F4F4;
-    --btn-primary-color: #E43F5A;
-    --text-primary-font: 'Poppins', sans-serif;
 }
 
 /* Bootstrap Overrides
 -------------------------------*/
 
+p {
+    margin-bottom: 0;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 18px 0;
+}
+
+.btn-primary {
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--color-main);
+    border-color: var(--color-main);
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-control {
+    border-radius: 6px;
+    font-weight: 500;
+    line-height: 19px;
+    padding-left: 24px;
+    border-color: var( --color-main);
+}
 
 /* Global Styles
 -------------------------------*/
@@ -26,21 +52,17 @@
 body {
     font-family: Gilroy;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 41px;
-    background-color: var(--color-bg-main);
-    color: var(--color-text-main);
+    font-size: 16px;
+    line-height: 24px;
+    background-color: var(--color-white);
+    color: var(--color-main);
 }
 
 h2 {
     font-weight: 600;
-    font-size: 48px;
-    line-height: 57px;
+    font-size: 32px;
+    line-height: 38px;
     text-align: center;
-}
-
-p {
-    opacity: .85;
 }
 
 em {
@@ -52,23 +74,174 @@ em {
 }
 
 .coming-soon {
-    font-size: 40px;
-    line-height: 47px;
+    font-size: 24px;
+    line-height: 28px;
     opacity: 1;
 }
 
-.main-title {
-    max-width: 760px;
+/* Masthead Section
+-------------------------------*/
+
+.masthead {
+
+    padding: 58px 0 126px;
+}
+
+/* Hero Section
+-------------------------------*/
+
+.hero-cta {
+    width: auto;
+    margin-top: 42px;
+    padding: 18px 66px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    margin: 39px 0 16px;
+}
+
+.hero p {
+    font-size: 24px;
+    line-height: 33px;
+}
+
+
+/* About
+-------------------------------*/
+
+.about {
+    padding-top: 120px;
+}
+
+.about h2 {
+    margin-bottom: 72px;
+}
+
+.about-img {
+    padding-right: 77px;
+}
+
+.about-desc {
+    margin-top: 65px;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.about-desc p {
+    padding-left: 49px;
+    border-left: 2px solid var(--color-brand);
+}
+
+.about-desc p:first-of-type {
+    padding-bottom: 56px;
+}
+
+/* App Features
+-------------------------------*/
+
+.feature {
+    padding-top: 108px;
+}
+
+.feature h2 {
+    margin-bottom: 84px;
+}
+
+.feature-items {
+    background-color: var(--color-main);
+    color: var(--color-white);
+    border-radius: 7px;
+    max-width:  386px;
+    min-height: 396px;
+    padding: 80px 46px;
+    
+}
+
+.feature-items:not(last-of-type) {
+    margin-right: -9px;
+}
+
+.feature-icons {
+    background-color: var(--color-brand);
+    font-size: 24px;
+    width: 48px;
+    height: 48px;
     margin: 0 auto;
-    text-align: center;
+    border-radius: 50%;
 }
 
+.feature h3 {
+    margin: 16px 0px;
+}
 
-#screen h3 {
+/* App Screen
+-------------------------------*/
+
+.screen {
+    padding-top: 120px;
+}
+
+.screen h2 {
+    margin-bottom: 72px;
+}
+
+.screens-img {
+    padding-bottom: 40px;
+}
+
+.highlights {
+    margin-top: 120px;
+    padding: 30px 0;
+    color: var(--color-white);
+    background-color: var(--color-main);
+}
+
+.highlights h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 4px;
+}
+
+.highlights p {
     font-weight: 500;
-    font-size: 32px;
-    line-height: 50px;
-    text-align: center;
-    color: var(--color-brand);
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.85);
 }
 
+/* Notification
+-------------------------------*/
+
+.be-notify {
+    padding: 120px 0;
+}
+
+.be-notify h2 {
+    margin-bottom: 72px;
+}
+
+.notify-img {
+    padding-right: 116.5px;
+}
+
+.form-wrap {
+    margin-top: 103px;
+    padding-left: 116.5px;
+}
+
+
+/* Footer
+-------------------------------*/
+
+footer {
+    padding: 34px 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: var(--color-main);
+    color: var(--color-white);
+}
