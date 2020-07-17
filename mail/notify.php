@@ -2,8 +2,8 @@
     
     // Database detail
     $dbServername = "localhost";
-    $dbUsername = "root";
-    $dbPassword = "";
+    $dbUsername = "myflirta0d";
+    $dbPassword = "a0dInChristdb";
     $dbName = "db_myflirt";
 
     // Create a connection to the database
