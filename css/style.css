@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Medium.woff') format('woff'),
+        url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBold.eot');
+    src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+        url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-SemiBold.woff') format('woff'),
+        url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
 /* Custom Properties 
 ------------------------------- */
 
@@ -47,11 +69,15 @@ p {
     border-color: var( --color-main);
 }
 
+.invalid-feedback {
+    font-size: 16px;
+}
+
 /* Global Styles
 -------------------------------*/
 
 body {
-    font-family: Gilroy;
+    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -99,7 +125,7 @@ em {
 }
 
 
-/* About
+/* About App
 -------------------------------*/
 
 .about {
@@ -185,9 +211,12 @@ em {
     margin-bottom: 32px;
 }
 
-.screens-img {
+.screen-item{
     padding-bottom: 16px;
     text-align: center;
+}
+.screen-links {
+    display: block;
 }
 
 .highlights {
@@ -269,7 +298,7 @@ footer p:first-of-type {
         opacity: 1;
     }
 
-    .screens-img {
+    .screen-item{
         padding-bottom: 40px;
     }
 
@@ -383,9 +412,7 @@ footer p:first-of-type {
         padding: 120px 0;
     }
 
-        
     .be-notify h2 {
-        /* margin-bottom: 72px; */
         max-width: initial;
     }
 
@@ -404,15 +431,16 @@ footer p:first-of-type {
         margin-top: 103px;
         padding-left: 116.5px;
     }
+
 }
 
 @media (min-width: 1200px) {
 
-    .screens-img {
+    .screen-item{
         text-align: left;
     }
 
-    .screens-img {
+    .screen-item{
         padding-right: 98px;
         padding-left: 98px;
     }
@@ -431,4 +459,5 @@ footer p:first-of-type {
     .highlight-items:last-of-type {
         margin-top: 0;
     }
+
 }
