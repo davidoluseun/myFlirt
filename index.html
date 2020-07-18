@@ -7,11 +7,12 @@
 	    <meta name="author" content=""> 
         <title>MyFlirt</title>
         <!-- Fontawesome CSS -->
+        <link rel="icon" href="">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha512-rO2SXEKBSICa/AfyhEK5ZqWFCOok1rcgPYfGOqtX35OyiraBg6Xa4NnBJwXgpIRoXeWjcAmcQniMhp22htDc6g==" crossorigin="anonymous" />       
         <!-- Animate CSS -->
-        <link rel="stylesheet" href="vendor/animate/animate.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" integrity="sha512-kb1CHTNhoLzinkElTgWn246D6pX22xj8jFNKsDmVwIQo+px7n1yjJUZraVuR/ou6Kmgea4vZXZeUDbqKtXkEMg==" crossorigin="anonymous" />
         <!-- Colorbox CSS -->
         <link rel="stylesheet" href="vendor/colorbox/css/colorbox.css">
         <!-- Custom CSS -->
@@ -20,6 +21,11 @@
 
     <!-- Content -->
     <body>
+        <!-- Preloader -->
+        <div class="preloader-wrap">
+            <div class="preloader"></div>
+        </div>
+
         <!-- Masthead Section -->
        <header class="masthead">
             <div class="container d-flex justify-content-between align-items-baseline">
@@ -35,13 +41,13 @@
             <header>
                 <div class="container">
                     <div class="row overflow-hidden">
-                        <div class="hero col-md-6  wow animate__animated animate__fadeInLeft">
+                        <div class="hero col-md-6  wow animate__animated animate__fadeInLeft animate__delay-2s">
                             <h2>Find the perfect match to <em class="brand-color">flirt</em> with amongst your social <br>media friends</h2>
                             <p>We are currently working on this feature <br>and will launch soon</p>
                             <a class="hero-cta d-none btn btn-primary" href="#be-notify">NOTIFY ME</a>
                         </div>
 
-                        <div class="col-md-6 text-md- wow animate__animated animate__fadeInUp">
+                        <div class="col-md-6 text-md-right wow animate__animated animate__fadeInUp animate__delay-2s">
                             <img class="img-fluid" src="images/hero-img.png" alt="">
                         </div>
                     </div>
@@ -51,7 +57,7 @@
             <!-- About App Section -->
             <section class="about">
                 <div class="overflow-hidden">
-                    <h2 class="wow animate__animated animate__fadeInLeft"><em class="brand-color">About</em> the App</h2>
+                    <h2 class="wow animate__animated animate__flipInX"><em class="brand-color">About</em> the App</h2>
                 </div>
                 <div class="container">
                     <div class="row">
@@ -77,7 +83,7 @@
             <!-- App Feature Section -->
             <section class="feature">
                 <div class="overflow-hidden">
-                    <h2 class="wow animate__animated animate__fadeInRight">App <em class="brand-color">Features</em></h2>
+                    <h2 class="wow animate__animated animate__flipInX">App <em class="brand-color">Features</em></h2>
                 </div>
                 
                 <div class="container">
@@ -118,7 +124,7 @@
             <!-- App Screen Section -->
             <section class="screen">
                 <div class="overflow-hidden">
-                    <h2 class="wow animate__animated animate__fadeInLeft">App <em class="brand-color">Screens</em></h2>
+                    <h2 class="wow animate__animated animate__flipInX">App <em class="brand-color">Screens</em></h2>
                 </div>
                 <div class="container">
                     <div class="row">
@@ -220,7 +226,7 @@
             <section class="be-notify" id="be-notify">
                 <div class="container">
                     <div class="overflow-hidden">
-                        <h2 class="wow animate__animated animate__fadeInRight">Be the <em class="brand-color">first</em> to know when we <em class="brand-color">launch</em></h2>
+                        <h2 class="wow animate__animated animate__flipInX">Be the <em class="brand-color">first</em> to know when we <em class="brand-color">launch</em></h2>
                     </div>
                     <P>Fill the form below with your first name and email address to get notified when we launch</P>
                
@@ -260,14 +266,16 @@
         </footer>
      
         <!-- jQuery JS -->
-        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
         <!-- Bootstrap JS -->
-        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha512-I5TkutApDjnWuX+smLIPZNhw+LhTd8WrQhdCKsxCFRSvhFx2km8ZfEpNIhF9nq04msHhOkE8BMOBj5QE07yhMA==" crossorigin="anonymous"></script>  
         <!-- Wow JS -->
-        <script src="vendor/wow/wow.min.js"></script>
-        <!-- Wow JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+        <!-- Colorbox JS -->
         <script src="vendor/colorbox/js/colorbox-min.js"></script>
         <!-- Custom script -->
         <script src="js/script.js"></script>
+
+       
     </body>
 </html>

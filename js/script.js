@@ -1,7 +1,12 @@
 (function() {
 
     "use strict";
-  
+
+    // Preloader
+    $(window).on("load", function() {
+        $('.preloader-wrap').fadeOut();
+    });
+
     // jQuery document ready fn
     $(function() {
 
