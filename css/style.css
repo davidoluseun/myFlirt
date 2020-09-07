@@ -24,7 +24,8 @@
 ------------------------------- */
 
 :root {
-    --color-white: #E3F4FD;
+    --color-bg: #E5E5E5;
+    --color-white: #F1F1F1;
     --color-main: #23233C;
     --color-brand: #F74884;
 }
@@ -108,7 +109,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    background-color: var(--color-white);
+    background-color: var(--color-bg);
     color: var(--color-main);
 }
 
