@@ -251,6 +251,8 @@
 
                                 <input class="btn btn-primary" type="submit" value="NOTIFY ME">
                             </form>
+                            
+                            <div id="feedback"></div><!-- .feedback - success/fail feedback -->
                         </div>
                     </div>
                 </div>
