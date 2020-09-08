@@ -236,7 +236,7 @@
                         </div>
 
                         <div class="form-wrap col-md-6 wow animate__animated animate__fadeInRight">
-                            <form class="notify-me-form" action="mail/notify.php" method="post" autocomplete="off" novalidate>
+                            <form class="notify-me-form" autocomplete="off" novalidate>
                                 <div class="form-group">
                                     <label class="form-control-label sr-only" for="firstname">First Name</label>
                                     <input class="form-control" id="firstname" type="text" name="firstname" placeholder="Your First Name" required>
@@ -245,13 +245,13 @@
 
                                 <div class="form-group">
                                     <label class="form-control-label sr-only" for="user-email">Email Address</label>
-                                    <input class="form-control" id="user-email" type="email" name="user-email" placeholder="Your Email Address" required>
+                                    <input class="form-control" id="useremail" type="email" name="user-email" placeholder="Your Email Address" required>
                                     <div class="invalid-feedback" role="alert">This field is required, please enter your valid email address</div>
                                 </div>
 
-                                <input class="btn btn-primary" type="submit" value="NOTIFY ME">
+                                <input class="btn btn-primary notify-btn" type="submit" value="NOTIFY ME">
                             </form>
-                            
+
                             <div id="feedback"></div><!-- .feedback - success/fail feedback -->
                         </div>
                     </div>
