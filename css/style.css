@@ -74,6 +74,11 @@ p {
     font-size: 16px;
 }
 
+.alert {
+	border-radius: 4px;
+	margin-bottom: 24px;
+}
+
 /* Preloader
 --------------------------------*/
 
@@ -294,6 +299,13 @@ em {
 
 .form-wrap {
     margin-top: 64px;
+}
+
+.notify-btn:disabled  {  
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+    opacity: .55;
+    cursor: not-allowed !important;
 }
 
 /* Footer

@@ -248,11 +248,12 @@
                                     <input class="form-control" id="useremail" type="email" name="user-email" placeholder="Your Email Address" required>
                                     <div class="invalid-feedback" role="alert">This field is required, please enter your valid email address</div>
                                 </div>
+                                
+                                <div id="feedback"></div><!-- .feedback - success/fail feedback -->
 
                                 <input class="btn btn-primary notify-btn" type="submit" value="NOTIFY ME">
                             </form>
 
-                            <div id="feedback"></div><!-- .feedback - success/fail feedback -->
                         </div>
                     </div>
                 </div>
