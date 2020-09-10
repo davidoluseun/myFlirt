@@ -25,10 +25,10 @@
     }
 
     // Database detail
-    $dbServername = "localhost";
-    $dbUsername = "root";
-    $dbPassword = "";
-    $dbName = "db_feedback";
+    $dbServername = "us-cdbr-east-02.cleardb.com";
+    $dbUsername = "b85f67dca0e720";
+    $dbPassword = "7e6fe9b4";
+    $dbName = "heroku_9c92c52f20f7cb0";
 
     // Create a connection to the database
     $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
