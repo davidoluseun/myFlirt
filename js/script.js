@@ -66,8 +66,8 @@
 
         // notifyMe function
         function notifyMe() {
-            var $firstname = $("#firstname").val();
-            var $useremail = $("#useremail").val();
+            var $firstname = $("#firstname").val().trim();
+            var $useremail = $("#useremail").val().trim();
 
             // Disable submit button until AJAX call is completed to prevent duplicate messages
             var $notifytBtn = $(".notify-btn");
