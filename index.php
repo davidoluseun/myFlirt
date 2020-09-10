@@ -41,13 +41,13 @@
             <header>
                 <div class="container">
                     <div class="row overflow-hidden">
-                        <div class="hero col-md-6  wow animate__animated animate__fadeInLeft animate__delay-1s">
+                        <div class="hero col-md-6  wow animate__animated animate__slow animate__fadeInLeft animate__delay-1s">
                             <h2>Find the perfect match to <em class="brand-color">flirt</em> with amongst your social <br>media friends</h2>
                             <p>We are currently working on this feature <br>and will launch soon</p>
                             <a class="hero-cta d-none btn btn-primary" href="#be-notify">NOTIFY ME</a>
                         </div>
 
-                        <div class="col-md-6 text-md-right wow animate__animated animate__fadeInUp animate__delay-1s">
+                        <div class="col-md-6 text-md-right wow animate__animated animate__slow animate__fadeInUp animate__delay-1s">
                             <img class="img-fluid" src="images/hero-img.png" alt="">
                         </div>
                     </div>
@@ -57,15 +57,15 @@
             <!-- About App Section -->
             <section class="about">
                 <div class="overflow-hidden">
-                    <h2 class="wow animate__animated animate__flipInX"><em class="brand-color">About</em> the App</h2>
+                    <h2 class="wow animate__animated animate__slow animate__flipInX"><em class="brand-color">About</em> the App</h2>
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="about-img col-lg-6 wow animate__animated animate__zoomIn">
+                        <div class="about-img col-lg-6 wow animate__animated animate__slow animate__zoomIn">
                             <img class="img-fluid" src="images/chat-img.png" alt="">
                         </div>
 
-                        <div class="about-desc col-lg-6 wow animate__animated animate__fadeInUp">
+                        <div class="about-desc col-lg-6 wow animate__animated animate__slow animate__fadeInUp">
                             <div class="about-desc-wrap">
                                 <img src="images/circle.png" alt="">
                                 <p>Our mobile app automatically scans your friends from all your social networks and suggests the best flirt match based on your similar activities, likes, sharings and opinions about you and more</p>
@@ -83,12 +83,12 @@
             <!-- App Feature Section -->
             <section class="feature">
                 <div class="overflow-hidden">
-                    <h2 class="wow animate__animated animate__flipInX">App <em class="brand-color">Features</em></h2>
+                    <h2 class="wow animate__animated animate__slow animate__flipInX">App <em class="brand-color">Features</em></h2>
                 </div>
                 
                 <div class="container">
                     <div class="row overflow-hidden">
-                        <section class="col-lg-4 wow animate__animated animate__fadeInLeft">
+                        <section class="col-lg-4 wow animate__animated animate__slow animate__fadeInLeft">
                             <div class="feature-items text-center">
                                 <span class="feature-icons d-flex justify-content-center align-items-center">
                                     <span class="fas fa-sync-alt" aria-hidden="true"></span>
@@ -98,7 +98,7 @@
                             </div>
                         </section>
 
-                        <section class="col-lg-4 wow animate__animated animate__fadeInUp">  
+                        <section class="col-lg-4 wow animate__animated animate__slow animate__fadeInUp">  
                             <div class="feature-items text-center">
                                 <span class="feature-icons d-flex justify-content-center align-items-center">
                                     <span class="fas fa-link" aria-hidden="true"></span>
@@ -108,7 +108,7 @@
                             </div>
                         </section>
 
-                        <section class="col-lg-4 wow animate__animated animate__fadeInRight">
+                        <section class="col-lg-4 wow animate__animated animate__slow animate__fadeInRight">
                             <div class="feature-items text-center">
                                 <span class="feature-icons d-flex justify-content-center align-items-center">
                                     <span class="far fa-bell" aria-hidden="true"></span>
@@ -124,7 +124,7 @@
             <!-- App Screen Section -->
             <section class="screen">
                 <div class="overflow-hidden">
-                    <h2 class="wow animate__animated animate__flipInX">App <em class="brand-color">Screens</em></h2>
+                    <h2 class="wow animate__animated animate__slow animate__flipInX">App <em class="brand-color">Screens</em></h2>
                 </div>
                 <div class="container">
                     <div class="row">
@@ -170,7 +170,7 @@
                 <div class="highlights">
                     <div class="container">
                         <div class="row overflow-hidden">
-                            <section class="highlight-items col-sm-6 col-lg-3 text-center text-xl-left d-xl-flex wow animate__animated animate__bounceIn">
+                            <section class="highlight-items col-sm-6 col-lg-3 text-center text-xl-left d-xl-flex wow animate__animated animate__slow animate__bounceIn">
                                 <div class="d-xl-flex pr-xl-3">
                                     <span class="feature-icons d-flex justify-content-center align-items-center align-self-center">
                                         <span class="fas fa-check" aria-hidden="true"></span>
@@ -182,7 +182,7 @@
                                 </div>
                             </section>
 
-                            <section class="highlight-items col-sm-6 col-lg-3 text-center text-xl-left d-xl-flex wow animate__animated animate__bounceIn">
+                            <section class="highlight-items col-sm-6 col-lg-3 text-center text-xl-left d-xl-flex wow animate__animated animate__slow animate__bounceIn">
                                 <div class="d-xl-flex pr-xl-3">
                                     <span class="feature-icons d-flex justify-content-center align-items-center align-self-center">
                                         <span class="fas fa-check" aria-hidden="true"></span>
@@ -194,7 +194,7 @@
                                 </div>
                             </section>
 
-                            <section class="highlight-items col-sm-6 col-lg-3 text-center text-xl-left d-xl-flex wow animate__animated animate__bounceIn">
+                            <section class="highlight-items col-sm-6 col-lg-3 text-center text-xl-left d-xl-flex wow animate__animated animate__slow animate__bounceIn">
                                 <div class="d-xl-flex pr-xl-3">
                                     <span class="feature-icons d-flex justify-content-center align-items-center align-self-center">
                                         <span class="fas fa-hourglass" aria-hidden="true"></span>
@@ -206,7 +206,7 @@
                                 </div> 
                             </section>
 
-                            <section class="highlight-items col-sm-6 col-lg-3 text-center text-xl-left d-xl-flex wow animate__animated animate__bounceIn">
+                            <section class="highlight-items col-sm-6 col-lg-3 text-center text-xl-left d-xl-flex wow animate__animated animate__slow animate__bounceIn">
                                 <div class="d-xl-flex pr-xl-3">
                                     <span class="feature-icons d-flex justify-content-center align-items-center align-self-center">
                                         <span class="fas fa-times" aria-hidden="true"></span>
@@ -226,16 +226,16 @@
             <section class="be-notify" id="be-notify">
                 <div class="container">
                     <div class="overflow-hidden">
-                        <h2 class="wow animate__animated animate__flipInX">Be the <em class="brand-color">first</em> to know when we <em class="brand-color">launch</em></h2>
+                        <h2 class="wow animate__animated animate__slow animate__flipInX">Be the <em class="brand-color">first</em> to know when we <em class="brand-color">launch</em></h2>
                     </div>
                     <P>Fill the form below with your first name and email address to get notified when we launch</P>
                
                     <div class="row overflow-hidden">
-                        <div class="notify-img col-md-6 wow animate__animated animate__fadeInUp">
+                        <div class="notify-img col-md-6 wow animate__animated animate__slow animate__fadeInUp">
                             <img class="img-fluid" src="images/notify-img.png" alt="">
                         </div>
 
-                        <div class="form-wrap col-md-6 wow animate__animated animate__fadeInRight">
+                        <div class="form-wrap col-md-6 wow animate__animated animate__slow animate__fadeInRight">
                             <form class="notify-me-form" autocomplete="off" novalidate>
                                 <div class="form-group">
                                     <label class="form-control-label sr-only" for="firstname">First Name</label>
