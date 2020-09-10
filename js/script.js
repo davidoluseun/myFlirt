@@ -123,7 +123,7 @@
                             // Success feedback
                             $("#feedback").html("<div class='alert alert-success'></div>");
                             $("#feedback > .alert-success").html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>");
-                            $("#feedback > .alert-success").append($("<strong>").text("Hi " + $firstname + ", your email address was register successfully, thanks."))
+                            $("#feedback > .alert-success").append($("<strong>").text("Hi " + $firstname + ", your email address was registered successfully, thanks."))
                                 .append('</strong>');
 
                             // Clear all fields and remove was-validated class
