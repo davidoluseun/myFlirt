@@ -283,7 +283,7 @@ em {
 -------------------------------*/
 
 .be-notify {
-    padding: 64px 0;
+    padding: 64px 0 54px;
 }
 
 .be-notify h2 {
@@ -299,6 +299,10 @@ em {
 
 .form-wrap {
     margin-top: 64px;
+}
+
+.notify-btn {
+    margin-bottom: 10px;
 }
 
 .notify-btn:disabled  {  
