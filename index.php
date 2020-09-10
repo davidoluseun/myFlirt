@@ -14,7 +14,7 @@
         <!-- Animate CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" integrity="sha512-kb1CHTNhoLzinkElTgWn246D6pX22xj8jFNKsDmVwIQo+px7n1yjJUZraVuR/ou6Kmgea4vZXZeUDbqKtXkEMg==" crossorigin="anonymous" />
         <!-- Colorbox CSS -->
-        <link rel="stylesheet" href="vendor/colorbox/css/colorbox.css">
+        <link rel="stylesheet" href="css/colorbox.css">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/style.css">
     </head>
