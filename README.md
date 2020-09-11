@@ -1,6 +1,6 @@
 # myFlirt
 
-myFlirt is a coming-soon-langing or a be-notify page for a mobile application. The page was to get user's email saved in the database to be notify when the app is published. 
+myFlirt is a coming-soon-landing or a be-notify page for a mobile application. The page was to get user's email saved in the database to be notify when the app is published. 
 
 It was a Designer/Frontend Combo work I did at HNGi7 Internship.
 
